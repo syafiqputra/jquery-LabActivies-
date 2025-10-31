@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery setup</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <meta name="description" content="This website is about jquery">
+    <meta name="keywords" content="jquery,html,css,jquery,mobile">
+</head>
+<body>
+    <div data-role="page" id="page1">
+
+        <div data-role="header">
+            <h1>Header</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h3>Readonly, unordered list</h3>
+            <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="search it and get it...">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>                
+            </ul>
+
+            <h3>Ordered list</h3>
+            <ol data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="search it and get it...">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>                
+            </ol>
+
+            <h3>Clickable list</h3>
+            <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="search it and get it...">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Bootstrap</a></li>                
+            </ul>
+        </div>
+        <div data-role="content" style="text-align:center;">            
+            <a href="index.html" data-role="button" data-icon="arrow-l" data-theme="b">Back to Menu</a>
+        </div>
+        <div data-role="footer">
+            <h1>&copy; 10DIT23F2040</h1>
+        </div>
+
+    </div>
+</body>
+</html>
